@@ -92,6 +92,8 @@ BasicRule wl:1310,1311 "mz:$URL:/wp-admin/users.php|$BODY_VAR:users[]|NAME";
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/load-scripts.php|$ARGS_VAR:load[]|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/users.php|$ARGS_VAR:delete_count|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/users.php|$ARGS_VAR:update|NAME";
+BasicRule wl:1310,1311 "mz:URL|$URL:/wp-admin/customize.php|$ARGS_VAR:autofocus[control]|NAME";
+BasicRule wl:1000 "mz:$URL:/wp-includes/js/imgareaselect/imgareaselect.css|URL";
 
 # plain WP site
 BasicRule wl:1000 "mz:URL|$URL:/wp-admin/update-core.php";
